@@ -1,0 +1,20 @@
+# Formatting
+.ruff_cache
+
+# Input/Output directories and logs
+log/
+results/
+data/
+data_masked/
+
+# Apptainer/Singularity images
+apptainer/*.sif
+
+# Cache
+nilearn_cache/
+
+# Old code and results
+archive/
+
+# Virtual env for testing
+.venv/
